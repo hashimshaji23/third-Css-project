@@ -111,3 +111,26 @@ section{
     text-decoration: none;
     color: #fff;
 }
+
+@media screen and (max-width:1024px) {
+    section{
+        display: flex;
+        flex-direction: column;
+        height: 1100px;
+        align-items: center;
+    }
+    .section-image{
+        align-items: center;
+    }
+    .img-div{
+    width: 404px;
+    height: 360px;
+    margin-left: 20px;
+    gap: 10px;
+    }
+    .section-two p{
+    margin-left: 80px;
+    font-size: x-large;
+    font-family: serif;
+    }
+}
