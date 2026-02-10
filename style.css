@@ -98,11 +98,11 @@ section{
     gap: 16px;
     display:grid;
     grid-template-columns: repeat(4,1fr);
-    /* position: relative; */
 }
 .first-img img{
     width: 350px;
-    height: 380px; 
+    height: 400px; 
+    border-radius: 7px;
 }
 .first-img{
     position: relative;  
@@ -114,7 +114,8 @@ section{
 }
 .second-img img{
     width: 350px;
-    height: 380px;
+    height: 400px;
+    border-radius: 7px;
 }
 .second-img{
     position: relative;
@@ -126,7 +127,8 @@ section{
 }
 .third-img img{
     width: 350px;
-    height: 380px;
+    height: 400px;
+    border-radius: 7px;
 }
 .third-img{
     position: relative;
@@ -138,7 +140,8 @@ section{
 }
 .forth-img img{
     width: 350px;
-    height: 380px;
+    height: 400px;
+    border-radius: 7px;
 }
 .forth-img{
     position: relative;
@@ -165,6 +168,9 @@ section{
    /* text-align: center; */
    /* box-sizing: border-box; */
    padding-top: 12px;
+}
+.icon:hover{
+    color: aqua;
 }
 .footer-icons{
     display: flex;
@@ -198,11 +204,59 @@ section{
 }
 @media screen and (max-width:820px) {
     .img-div{
-    width: 140px;
-    height: 140px;
-    margin-left: 80px; 
-    gap: 20px;
-    display: flex;
-    flex-direction: column;
+    /* width: 400px;
+    height: 360px; */
+    padding-left: 5px;
+    display:grid;
+    grid-template-columns: repeat(2,1fr);
+}
+    .first-img img{
+    width: 380px;
+    height: 460px;
+    border-radius: 7px;
+}
+    .second-img img{
+    width: 380px;
+    height: 460px;
+    border-radius: 7px;
+}
+    .third-img img{
+    width: 380px;
+    height: 460px;
+    border-radius: 7px;
+}
+    .forth-img img{
+    width: 380px;
+    height: 460px;
+    border-radius: 7px;
+}
+}
+@media screen and (max-width:768px) {
+    .img-div{
+    /* width: 400px;
+    height: 360px; */
+    padding-left: 5px;
+    display:grid;
+    grid-template-columns: repeat(2,1fr);
+}
+    .first-img img{
+    width: 360px;
+    height: 440px;
+    border-radius: 7px;
+}
+    .second-img img{
+    width: 360px;
+    height: 440px;
+    border-radius: 7px;
+}
+    .third-img img{
+    width: 360px;
+    height: 440px;
+    border-radius: 7px;
+}
+    .forth-img img{
+    width: 360px;
+    height: 440px;
+    border-radius: 7px;
 }
 }
