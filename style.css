@@ -191,8 +191,16 @@ section{
     section{
         display: flex;
         flex-direction: column;
-        height: 1100px;
+        /* height: 1100px; */
         align-items: center;
+        width: 100%;
+        
+    }
+    .second-p{
+        font-size: 28px;
+    }
+    .section-two{
+        height: 85vh;
     }
     .section-image{
         align-items: center;
@@ -200,8 +208,9 @@ section{
     .img-div{
     width: 404px;
     height: 360px;
-    margin-left: 20px;
+    margin-left: 15%;
     gap: 10px;
+    grid-template-columns: repeat(2,1fr);
     }
     .section-two p{
     margin-left: 80px;
